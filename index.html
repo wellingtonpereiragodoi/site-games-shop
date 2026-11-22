@@ -1,99 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Games Shop- a sua loja de games </title>
-    <link rel="stylesheet" href="/main.css">
+    <meta name="description" content="Games Shop: a sua loja de games.">
+    <title>Games Shop - a sua loja de games</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
 </head>
-    <body>
-        <header>
-            <div class="container"><h1>Games Shop</h1>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#about">Sobre a loja </a>
-                        </li>
-                        <li> 
-                            <a href="#contact">Contato</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+<body>
+    <header>
+        <div class="container">
+            <h1>Games Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre a loja</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
         <section id="about">
             <div class="container">
-                <img class="store-front" src="./loja.jpg" alt="fachada da loja game shop">
+                <img class="store-front" src="./loja.jpg" alt="Fachada da loja Games Shop">
                 <div>
-                    <h2>Sobre a loja </h2>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, pariatur ut culpa ipsam quam dolores suscipit assumenda. Vero, deleniti delectus quos, vitae ut quod minus, incidunt provident velit blanditiis assumenda!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, pariatur ut culpa ipsam quam dolores suscipit assumenda. Vero, deleniti delectus quos, vitae ut quod minus, incidunt provident velit blanditiis assumenda!
-                        </p>
-                        <ul class="brands-list"> 
-                            <li><img src="./nintendo.png" alt="nintendo"></li>
-                            <li><img src="./xbox.png" alt="nintendo"></li>
-                            <li><img src="./playstation.png" alt="nintendo"></li>
-                        </ul>
+                    <h2>Sobre a loja</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, pariatur ut culpa ipsam quam dolores suscipit assumenda. Vero, deleniti delectus quos, vitae ut quod minus, incidunt provident velit blanditiis assumenda!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, pariatur ut culpa ipsam quam dolores suscipit assumenda. Vero, deleniti delectus quos, vitae ut quod minus, incidunt provident velit blanditiis assumenda!</p>
+                    <ul class="brands-list">
+                        <li><img src="./nintendo.png" alt="Nintendo"></li>
+                        <li><img src="./xbox.png" alt="Xbox"></li>
+                        <li><img src="./playstation.png" alt="PlayStation"></li>
+                    </ul>
                 </div>
             </div>
         </section>
+
         <section id="contact">
             <div class="container">
-            <h2>Contato</h2>
-            <div class="contact-methods">
-                <div>
-                    <h3>Fale conosco</h3>
-                    <form>
-                        <input type="text" placeholder="Seu nome" required/>
-                        <input type="email" placeholder="Seu e-mail"required/>
-                        <input type="tel" placeholder="Seu telefone"(opcional)/>
-                        <textarea placeholder="Sua mensagem"required></textarea>
-                        <button type="submit"> Enviar</button>
-                    </form>
-                </div>
-                <div>
-                    <h3>Nos acompanhe</h3>
-                
-                    
+                <h2>Contato</h2>
+                <div class="contact-methods">
+                    <div>
+                        <h3>Fale conosco</h3>
+                        <form>
+                            <input type="text" name="nome" placeholder="Seu nome" aria-label="Seu nome" autocomplete="name" required>
+                            <input type="email" name="email" placeholder="Seu e-mail" aria-label="Seu e-mail" autocomplete="email" required>
+                            <input type="tel" name="telefone" placeholder="Seu telefone (opcional)" aria-label="Seu telefone (opcional)" autocomplete="tel">
+                            <textarea name="mensagem" placeholder="Sua mensagem" aria-label="Sua mensagem" required></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div>
+                        <h3>Nos acompanhe</h3>
                         <ul class="social-links">
                             <li>
-                                <a href="#" title="Siga-nos no instagram "> 
-                                    <img src="./instagram.png" alt="logo instagran" />
+                                <a href="#" title="Siga-nos no Instagram">
+                                    <img src="./instagram.png" alt="Instagram">
                                 </a>
                             </li>
                             <li>
-                                <a href="#" title="Siga-nos no facebook "> 
-                                    <img src="./facebook.png" alt="logo facebook" />
+                                <a href="#" title="Siga-nos no Facebook">
+                                    <img src="./facebook.png" alt="Facebook">
                                 </a>
                             </li>
                             <li>
-                                <a href="#" title="Siga-nos no you tube "> 
-                                    <img src="./youtube.png" alt="logo you tube" />
+                                <a href="#" title="Siga-nos no YouTube">
+                                    <img src="./youtube.png" alt="YouTube">
                                 </a>
                             </li>
                         </ul>
+                    </div>
+                    <div>
+                        <h3>Venha até nós</h3>
+                        <address>Rua JavaScript, nº 124, Vila HTML - SP</address>
+                    </div>
                 </div>
-            <div>
-            <h3>venha até nós</h3>
-            <p>
-                Rua:JavaScript n°124,Vila Html -sp
-            </p>
-            </div>
-            </div>
             </div>
         </section>
-        <footer>
-            <div class="conteiner">
-                <p>
-                    &copy;Game Shop-Todos os direitos reservados-2025
-                </p>
-            </div>
-        </footer>
-    </body>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Games Shop - Todos os direitos reservados - 2025</p>
+        </div>
+    </footer>
+</body>
 </html>
